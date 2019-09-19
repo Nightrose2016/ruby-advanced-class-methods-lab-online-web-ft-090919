@@ -27,4 +27,6 @@ class Song
     @@all << nsong
     nsong
   end
+  
+  def self.find_by_name
 end
