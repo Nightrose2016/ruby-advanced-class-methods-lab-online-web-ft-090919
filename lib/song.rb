@@ -15,5 +15,11 @@ class Song
     @@all << nsong
     nsong
   end
+  
+  def self.new_by_name
+    nsong = self.new
+    nsong.name = sname
+    @@all << nsong
+  end
 
 end
